@@ -4,7 +4,7 @@ module Socialization
       if @follow_model
         @follow_model
       else
-        ::Follow
+        Socialization::ActiveRecordStores::Follow
       end
     end
 
@@ -16,7 +16,7 @@ module Socialization
       if @like_model
         @like_model
       else
-        ::Like
+        Socialization::ActiveRecordStores::Like
       end
     end
 
@@ -28,7 +28,7 @@ module Socialization
       if @mention_model
         @mention_model
       else
-        ::Mention
+        Socialization::ActiveRecordStores::Mention
       end
     end
 
