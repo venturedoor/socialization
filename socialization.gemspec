@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = false
 
-  s.add_runtime_dependency 'activerecord', '>= 4.0', '<= 5.0.2'
+  s.add_runtime_dependency 'activerecord', '>= 4.0', '<= 5.1'
 
   s.add_development_dependency "appraisal"
   s.add_development_dependency "logger"
